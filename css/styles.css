@@ -336,6 +336,13 @@ a {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+/* -- додав селектор для фото -- */
+.list-ourteam img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ICONS */
 
 .icon-list {
@@ -415,14 +422,15 @@ a {
 }
 
 .portfolio-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 24px;
+  row-gap: 48px; */
 }
 
 .container-portfolio {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 48px;
 
 }
 
@@ -489,23 +497,34 @@ a {
 .footer {
   background: #2e2f42;
   background-color: #2e2f42;
-  height: 312px;
-  padding: 100px 0;
+  /* height: 312px; */
+  /* padding: 100px 0; */
+
+  height: auto;
+  padding: 50px 0;
+
 }
 
 .footer-social-container {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
+
+  flex-direction: column;
+  align-items: center;
+  text-align: center;/
 }
 
 .footer-studio {
-  margin-right: 120px;
+  /* margin-right: 120px; */
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -513,7 +532,8 @@ a {
   line-height: 1.17;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-bottom: 10px;
 }
 
 .footer-logo-studio {
@@ -526,17 +546,29 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  /* font-size: 16px;
+  width: 264px; */
   font-size: 16px;
-  width: 264px;
+  width: auto;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 72px;
 }
 
 .footer-social {
-  margin-right: auto;
+  /* margin-right: auto; */
+
+  margin-right: 0;
+  /* margin-bottom: 20px; */
+  margin-bottom: 72px;
+
 }
 
 .footer-icon-list {
-  gap: 16px;
+  /* gap: 16px; */
   display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .footer-paragraph {
@@ -546,6 +578,12 @@ a {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+/* ----новый---- */
+.container-email {
+  width: 100%;
+  padding: 0 20px;
 }
 
 .icon-link-footer:hover {
@@ -558,10 +596,13 @@ a {
 
 .footer-email {
   color: #fff;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  font-size: 14px;
+  margin-bottom: 16px;
 
 }
 
@@ -572,18 +613,20 @@ a {
 
 .form-footer {
   display: flex;
-  align-items: center;
-  gap: 24px;
+  /* align-items: center;
+  gap: 24px; */
+  flex-direction: column;
+  gap: 16px;
 }
 
 .modal-input-footer {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  width: 360px;
+  /* width: 360px; */
   height: 40px;
-  padding-left: 16px;
-  padding-right: 16px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
   outline: transparent;
   width: 264px;
   border: 1px solid #ffffff;
@@ -593,6 +636,10 @@ a {
   line-height: 2;
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
 }
 
 .modal-input-footer::placeholder {
@@ -610,6 +657,7 @@ a {
   border-radius: 4px;
   border: none;
   padding: 8px 24px;
+  margin-bottom: 96px;
   min-width: 165px;
   height: 40px;
   font-family: "Roboto", sans-serif;
