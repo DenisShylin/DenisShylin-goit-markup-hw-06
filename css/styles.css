@@ -582,8 +582,8 @@ a {
 
 /* ----новый---- */
 .container-email {
-  width: 100%;
-  padding: 0 20px;
+  /* width: 100%;
+  padding: 0 20px; */
 }
 
 .icon-link-footer:hover {
@@ -612,12 +612,14 @@ a {
 }
 
 .form-footer {
+
+
   display: flex;
-  /* align-items: center;
-  gap: 24px; */
   flex-direction: column;
-  gap: 16px;
+  align-items: center;
+  gap: 24px;
 }
+
 
 .modal-input-footer {
   width: 100%;
@@ -628,7 +630,8 @@ a {
   /* padding-left: 16px;
   padding-right: 16px; */
   outline: transparent;
-  width: 264px;
+  min-width: 264px;
+  height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
   color: #ffffff;
@@ -964,24 +967,18 @@ a {
   outline: none;
 }
 
-/* ---------------------------- TABLET ---------------------------  */
-
-/* @media screen and (min-width: 768px) {
+---------------------------- TABLET --------------------------- */ @media screen and (min-width: 768px) {
   .container {
     max-width: 736px;
-  } */
+  }
 
-/* -------------------------- NOT DESCTOP -----------------------  */
-
-/* @media screen and (max-width: 1157px) {
+  -------------------------- NOT DESCTOP ----------------------- @media screen and (max-width: 1157px) {
     .advantages-icons {
       display: none;
     }
-  } */
+  }
 
-/* ----------------------------- DESCTOP --------------  */
-
-/* @media screen and (min-width: 1158px) {
+  ----------------------------- DESCTOP -------------- @media screen and (min-width: 1158px) {
     .container {
       max-width: 1128px;
-    } */
+    }
