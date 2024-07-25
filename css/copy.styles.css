@@ -4,9 +4,7 @@ body {
     background-color: #ffffff;
 }
 
-img {
-    display: block;
-}
+
 
 .visually-hidden {
     position: absolute;
