@@ -186,10 +186,21 @@ a {
   margin: 0 auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/hero-bg.jpg);
+    url(../images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+  .hero-container {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hero-bg-mob-2x.jpg);
+  }
+
 }
 
 .hero-title {
@@ -464,8 +475,8 @@ a {
 /* -----размер фото----- */
 
 .size-foto-portfolio {
-  width: 288px;
-  height: 280px;
+  /* width: 288px;
+  height: 280px; */
 
 }
 
@@ -1003,8 +1014,21 @@ a {
 
   /* --------Section HERO--------- */
   .section-hero {
-
     padding: 112px 136px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hero-bg-tab.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+    .hero-container {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/hero-bg-tab-2x.jpg);
+    }
+
   }
 
   .hero-title {
@@ -1019,6 +1043,11 @@ a {
 
 
   /* -------- Section Features------ */
+
+  .section-features {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
   .features-inner {
     display: flex;
@@ -1162,6 +1191,8 @@ a {
 
 }
 
+/* ------------DESCTOP----------- */
+
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1128px;
@@ -1169,10 +1200,33 @@ a {
     margin: 0 auto;
   }
 
+
+
+  /* ---------SECTION HERO-------- */
+  .section-hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hero-bg.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+    .hero-container {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/hero-bg-des-2x.jpg);
+    }
+
+  }
+
+
   /* SECTION FEATURES */
 
   .section-features {
     padding: 120px 0;
+
   }
 
   .container-features {
