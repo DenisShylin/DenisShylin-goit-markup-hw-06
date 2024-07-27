@@ -21,12 +21,16 @@
   </head>
   <body>
     <!-- SECTION HEADER -->
-    <!-- <header class="page-header">
+     <header class="page-header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo" href="./index.html">
             Web<span class="logo-studio">Studio</span>
           </a>
+          <svg class="header-menu-mobile" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+
           <ul class="header-list">
             <li class="header-item">
               <a class="header-nav-link current" href="./index.html">Studio</a>
@@ -54,7 +58,85 @@
           </ul>
         </address>
       </div>
-    </header> -->
+
+       <!-- MOBILE MENU -->
+
+       <div class=" menu-mobile-overflow">
+        <div class="menu-mobile-conteiner container">
+          <button type="button" class="modal-close-btn">
+            <svg class="modal-btn" width="8" height="8">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+          </button>
+          <nav class="menu-box-mobile">
+            <ul class="menu-items-mobile">
+              <li>
+                <a
+                  href="./index.html"
+                  class="menu-item-mobile menu-item-active"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a href="" class="menu-item-mobile">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="menu-item-mobile">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu-mobile-contacts">
+            <address class="contacts-mobile">
+              <ul class="contacts-box-mobile">
+                <li>
+                  <a href="tel:+110001111111" class="contacts-item-mobile menu-item-active"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="contacts-item-mobile"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <ul class="mobile-icon-list">
+                  <li class="icon-item">
+                    <a href="" class="icon-link icon-link-footer">
+                      <svg class="icon-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="" class="icon-link icon-link-footer">
+                      <svg class="icon-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="" class="icon-link icon-link-footer">
+                      <svg class="icon-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="" class="icon-link icon-link-footer">
+                      <svg class="icon-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOBILE MENU -->
+    </header>
     <main class="main">
       <!-- SECTION HERO -->
       <section class="section-hero">
@@ -648,7 +730,7 @@
     </footer>
 
     <!-- MODAL -->
-    <!-- 
+    
     <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
@@ -727,19 +809,21 @@
             <label for="user-privacy" class="modal-check-text"
               ><span class="footer-accept">
                 <svg width="10" height="8">
-                  <use
-                    href="./images/icons.svg#icon-check-mark"
-                  ></use></svg></span
-              >I accept the terms and conditions of the<a
-                href="#"
-                class="privacy-policy-link"
-                >Privacy Policy</a
-              ></label
-            >
+                  <use href="./images/icons.svg#icon-check-mark"></use>
+                </svg>
+              </span>
+              <div>
+                I accept the terms and conditions of the <a
+                  href="#"
+                  class="privacy-policy-link"
+                  >Privacy Policy</a
+                >
+              </div>
+            </label>
           </div>
           <button type="submit" class="review-btn-modal">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
