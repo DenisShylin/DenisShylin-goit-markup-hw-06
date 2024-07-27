@@ -1196,13 +1196,14 @@ a {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1128px;
-    padding: 0 15px;
+    padding: 0px;
     margin: 0 auto;
   }
 
 
 
   /* ---------SECTION HERO-------- */
+  
   .section-hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7),
