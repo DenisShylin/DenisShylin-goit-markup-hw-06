@@ -1428,6 +1428,7 @@ letter-spacing: 0.02em;
   /* ---------SECTION HERO-------- */
   
   .section-hero {
+    padding: 188px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
@@ -1445,12 +1446,10 @@ letter-spacing: 0.02em;
 
   }
 
-
   /* SECTION FEATURES */
 
   .section-features {
     padding: 120px 0;
-
   }
 
   .container-features {
@@ -1542,11 +1541,8 @@ letter-spacing: 0.02em;
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
-
-
   }
 
-  .form-footer {}
 
 
 }
