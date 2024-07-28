@@ -63,6 +63,7 @@ a {
 
 
 
+
 .header-menu-mobile {
   fill: #2f2f37;
   display: flex;
@@ -124,11 +125,14 @@ a {
   color: #2e2f42;
 }
 
-
+.modal-menu-mob {
+  cursor: pointer;
+}
 
 
 
 /* MOBILE MENU */
+
 
 .menu-mobile-overflow {
   position: fixed;
@@ -1435,6 +1439,7 @@ a {
   .container {
     max-width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 
   }
 
@@ -1547,6 +1552,7 @@ a {
   .footer-social-container {
     align-items: baseline;
     flex-wrap: nowrap;
+    gap: 0 0px;
 
   }
 
@@ -1566,7 +1572,7 @@ a {
 
   .footer-social {
     margin-right: 80px;
-    margin-bottom: 20px;
+
   }
 
   .footer-icon-list {
