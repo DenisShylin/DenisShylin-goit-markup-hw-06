@@ -286,7 +286,7 @@ a {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min-resolution: 2dppx),
 screen and (min-resolution: 192dpi) {
-  .hero-container {
+  .section-hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
@@ -1154,11 +1154,11 @@ screen and (min-resolution: 192dpi) {
   @media screen and (-webkit-min-device-pixel-ratio: 2),
   screen and (min-resolution: 2dppx),
   screen and (min-resolution: 192dpi) {
-    .hero-container {
+    .section-hero {
       background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
-        url(../images/hero-bg-tab-2x.jpg);
+        url(/images/hero-bg-tab-2x.jpg);
     }
 
   }
@@ -1350,7 +1350,7 @@ screen and (min-resolution: 192dpi) {
   @media screen and (-webkit-min-device-pixel-ratio: 2),
   screen and (min-resolution: 2dppx),
   screen and (min-resolution: 192dpi) {
-    .hero-container {
+    .section-hero {
       background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
